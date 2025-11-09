@@ -23,9 +23,9 @@ public class AssignmentOne {
         System.out.println("----------------------------------------");
 
         createAppointment("Zhang San", "123456789", "09:00", gp1);
-        createAppointment("Li Si", "234567891", "10:30", gp2);
-        createAppointment("Wang Wu", "345678912", "14:00", cardio1);
-        createAppointment("Xiao Ming", "456789123", "15:30", cardio2);
+        createAppointment("Li Si", "234567891", "10:00", gp2);
+        createAppointment("Wang Wu", "345678912", "11:00", cardio1);
+        createAppointment("Xiao Ming", "456789123", "12:00", cardio2);
 
         System.out.println("Initial Appointments:");
         printExistingAppointments();
